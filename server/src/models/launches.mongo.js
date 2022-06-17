@@ -1,5 +1,4 @@
-const { default: mongoose } = require('mongoose');
-const mongodb = require('mongoose');
+const mongoose = require('mongoose');
 
 const launchesSchema = new mongoose.Schema({
     flightNumber: {
